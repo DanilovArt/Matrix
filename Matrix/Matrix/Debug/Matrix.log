@@ -1,13 +1,13 @@
-﻿Сборка начата 13.10.2014 19:25:55.
-     1>Проект "D:\Ботанка\Программы\Matrix\Matrix\Matrix.vcxproj" в узле 2 (целевые объекты Build).
+﻿Сборка начата 21.10.2014 15:57:34.
+     1>Проект "C:\Users\Артем\Documents\GitHub\Matrix\Matrix\Matrix\Matrix.vcxproj" в узле 2 (целевые объекты Build).
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Ботанка\Программы\Matrix\Debug\Matrix.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Ботанка\Программы\Matrix\Debug\Matrix.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Ботанка\Программы\Matrix\Debug\Matrix.lib" /MACHINE:X86 Debug\main.obj
-         Matrix.vcxproj -> D:\Ботанка\Программы\Matrix\Debug\Matrix.exe
-     1>Сборка проекта "D:\Ботанка\Программы\Matrix\Matrix\Matrix.vcxproj" завершена (целевые объекты Build).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Артем\Documents\GitHub\Matrix\Matrix\Debug\Matrix.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Артем\Documents\GitHub\Matrix\Matrix\Debug\Matrix.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Артем\Documents\GitHub\Matrix\Matrix\Debug\Matrix.lib" /MACHINE:X86 Debug\main.obj
+         Matrix.vcxproj -> C:\Users\Артем\Documents\GitHub\Matrix\Matrix\Debug\Matrix.exe
+     1>Сборка проекта "C:\Users\Артем\Documents\GitHub\Matrix\Matrix\Matrix\Matrix.vcxproj" завершена (целевые объекты Build).
 
 Сборка успешно завершена.
 
-Затраченное время: 00:00:00.77
+Затраченное время: 00:00:00.64

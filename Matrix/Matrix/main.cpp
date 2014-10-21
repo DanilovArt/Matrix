@@ -8,14 +8,23 @@
 */
 
 
+// 0 1 0 1 --> N
+// 1 1 1 1 --> Y
+// 0 1 0 1 --> N
+// v v v v
+// N Y N Y
+
+
+
 #include <iostream>
 #include <fstream>
 using namespace std;
 int m, n;
+int b= 0;
 int main(void){
 	setlocale(LC_ALL, "");
-	ifstream in("in2.txt");
-	ofstream out("out2.txt");
+	ifstream in("in.txt");
+	ofstream out("out.txt");
 	if (!in.is_open()){
 		cout << "Ошибка файл in.txt не существует";
 		return -1;
@@ -25,13 +34,34 @@ int main(void){
 	int** arr = new int*[m];
 	for (int i = 0; i < m; i++)
 		arr[i] = new int[n];
-	for (int i = 0; i < m; i++)
-	for (int j = 0; j < n; j++){
-		in >> arr[i][j];
-		if (arr[i][j] == 0){
-			c++;
-			out << i + 1 << " " << j + 1 <<endl;
+	for (int i = 0; i < m; i++){
+		for (int j = 0; j < n; j++){
+			in >> arr[i][j];
+			if (arr[i][j] == 1){
+				b = b + 1;
+				if (b == n){
+					out << "Строка " << i + 1 << endl;
+					c++;
+				}
+
+			}
 		}
+		b = 0;	
+	}
+	b = 0;
+	for (int i = 0; i < n; i++){
+		for (int j = 0; j < m; j++){
+			if (arr[j][i] == 1){
+				b = b + 1;
+				if (b == m){
+					out << "Столбец " << i + 1 << endl;
+					c++;
+				}
+
+			}
+		}
+		b = 0;
+
 	}
 	if (c>0){
 		out << "Количество просветов: " << c;
@@ -40,3 +70,4 @@ int main(void){
 		out << "Просветов нет";
 	return 0;
 }
+
